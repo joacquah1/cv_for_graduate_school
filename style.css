@@ -78,7 +78,7 @@ h1{
     background-size: 100% 100%;
     border-top: 1px solid rgb(97, 96, 96);
 }
-.page3,.page5,.message_box,.page6{
+.page3,.page5,.message_box,.page6,.page7{
     height: 36vh;
     background-color: rgb(10, 11, 12);
     display: flex;
@@ -89,7 +89,7 @@ h1{
 .page4{
     background-image:linear-gradient(0deg,rgb(0, 0, 0,0.7),rgb(0, 0, 0,0.7)), url("https://media.istockphoto.com/id/544789536/photo/black-silver-abstract-waves-pattern-metal-background.jpg?s=612x612&w=0&k=20&c=J-xeL5HFaiRqYp6PUDav7c78JnAGtT-9vypgrBpzvIY=");
 }
-.title_resize{
+.title_resize, .title_resize2{
     font-size: 31.2px;
     font-weight: 1000;
     margin-bottom: 0.3rem;  
@@ -110,6 +110,7 @@ h1{
 .page6{
     border-top: 1px solid rgb(97, 96, 96);
     height: 82vh;
+    border-bottom: 1px solid rgb(97, 96, 96);
 }
 .page6>.message_box{
     padding-left: 0 ; 
@@ -117,4 +118,30 @@ h1{
 }
 .page6 li{
     margin-bottom: 0.3rem;
+}
+.page7{
+ height: 150vh;
+}
+.page7>.message_box{
+    background-image: url("https://media.gettyimages.com/id/529740188/photo/doctor-and-patient-with-electrodes-on-head.jpg?s=612x612&w=0&k=20&c=ZwsRRllDnlcBxbcFvOyaKN54iyyzjM4Jr62wXBOsCX8=");
+    background-position: center;
+    background-size:cover;
+    height: 12rem;
+    border-radius: 10px;
+}
+.page7>.message{
+    margin-bottom: 2.7rem;
+}
+.title_resize2{
+    font-size: 30.8px;
+}
+.page7>.box2 {
+    background-image: url("https://agsci.psu.edu/faculty-staff/safety/procedures/lab/lab-coat-procedures/@@images/image/large");
+}
+.page7>.box3 {
+    background-image: url("https://img.freepik.com/premium-photo/computer-laptop-research-working-desk-concept_53876-150355.jpg?w=740");
+}
+.title_resize3{
+    font-size: 1.35rem;
+    font-weight: 1000;
 }
