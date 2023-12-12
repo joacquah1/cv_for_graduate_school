@@ -78,7 +78,7 @@ h1{
     background-size: 100% 100%;
     border-top: 1px solid rgb(97, 96, 96);
 }
-.page3,.page5,.message_box{
+.page3,.page5,.message_box,.page6{
     height: 36vh;
     background-color: rgb(10, 11, 12);
     display: flex;
@@ -106,4 +106,15 @@ h1{
 .messeage_head{
     margin-top: 1rem;
     margin-bottom:0.7rem;
+}
+.page6{
+    border-top: 1px solid rgb(97, 96, 96);
+    height: 82vh;
+}
+.page6>.message_box{
+    padding-left: 0 ; 
+    background-color: transparent;  
+}
+.page6 li{
+    margin-bottom: 0.3rem;
 }
