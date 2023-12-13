@@ -111,7 +111,7 @@ h1{
     margin-top: 1rem;
     margin-bottom:0.7rem;
 }
-.page6{
+.page6,.page10{
     border-top: 1px solid rgb(97, 96, 96);
     /* height: 82vh; */
     border-bottom: 1px solid rgb(97, 96, 96);
@@ -187,4 +187,20 @@ h1{
 }
 .page8 .publication_box:nth-child(4){
     margin-bottom: 1.4rem;
+}
+.page10.page7 .box1{
+    background-image: url("https://img.freepik.com/free-photo/group-diverse-people-having-business-meeting_53876-20851.jpg?w=740&t=st=1702483678~exp=1702484278~hmac=758ea3446d6294366189040561c92d7fe78687cc0ece256fa98c75a498fa4ad2");
+}
+.page10.page7 .box2{
+    background-image: url("https://patrickrowan.com.au/wp-content/uploads/2015/04/value_statement.jpg");
+}
+.page10.page7 .box3{
+    background-image: url("https://aureogroup.co.uk/wp-content/themes/aureo/dist/images/img.php?src=%2Fwp-content%2Fuploads%2F2015%2F06%2FService-Partners.jpg&w=320&h=320&zc=1");
+}
+.page11.page4{
+    background-image:linear-gradient(0deg,rgb(0, 0, 0,0.8),rgb(0, 0, 0,0.8)), url("https://media.istockphoto.com/id/186314937/vector/monochrome-psychedelic-background.jpg?s=612x612&w=0&k=20&c=WGQwbzt09b_np7UuLNY0pEclbHwu9Dc_AwogXr4uluw=");
+}
+.page12.page1{
+    background-image:none;
+    background-color: rgb(10, 11, 12);
 }
