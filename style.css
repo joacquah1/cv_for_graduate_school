@@ -40,7 +40,7 @@ nav{
     background-color: rgba(0, 0, 0, 0.774);   
 }
 .page1{
-    height: 45vh;
+    /* height: 45vh; */
     background-color: rgb(5, 93, 226);
     background-image: linear-gradient(0deg,rgb(0, 0, 0,0.8),rgb(0, 0, 0,0.8)),url("https://marvel-b1-cdn.bc0a.com/f00000000295839/www.msudenver.edu/wp-content/uploads/2021/06/Spring-Commencement-May-4-20210208-scaled.jpg");
     background-size:180% 100%;
@@ -68,7 +68,11 @@ h1{
     padding: 0.5rem;
     text-align: center;
     font-weight: 1000;
-    border-radius: 5px;  
+    border-radius: 5px; 
+    margin-bottom: 1.3rem; 
+}
+.base_margin{
+    margin-bottom: 2rem;
 }
 .page2,.page4{
     height: 45vh;
@@ -78,8 +82,8 @@ h1{
     background-size: 100% 100%;
     border-top: 1px solid rgb(97, 96, 96);
 }
-.page3,.page5,.message_box,.page6,.page7{
-    height: 36vh;
+.page3,.page5,.message_box,.page6,.page7,.page8_innerbox{
+    /* height: 36vh; */
     background-color: rgb(10, 11, 12);
     display: flex;
     flex-direction: column;
@@ -95,7 +99,7 @@ h1{
     margin-bottom: 0.3rem;  
 }
 .page5{
-    height: 82vh;
+    /* height: 82vh; */
 }
 .message_box{
     background-color: rgba(0, 0, 255, 0.548);
@@ -109,7 +113,7 @@ h1{
 }
 .page6{
     border-top: 1px solid rgb(97, 96, 96);
-    height: 82vh;
+    /* height: 82vh; */
     border-bottom: 1px solid rgb(97, 96, 96);
 }
 .page6>.message_box{
@@ -120,7 +124,7 @@ h1{
     margin-bottom: 0.3rem;
 }
 .page7{
- height: 150vh;
+ /* height: 150vh; */
 }
 .page7>.message_box{
     background-image: url("https://media.gettyimages.com/id/529740188/photo/doctor-and-patient-with-electrodes-on-head.jpg?s=612x612&w=0&k=20&c=ZwsRRllDnlcBxbcFvOyaKN54iyyzjM4Jr62wXBOsCX8=");
@@ -144,4 +148,43 @@ h1{
 .title_resize3{
     font-size: 1.35rem;
     font-weight: 1000;
+}
+.page8{
+    /* height: 150vh; */
+    padding:0.48rem;
+    background-color:#000;
+}
+.page8_innerbox{
+    border-radius: 10px;
+    padding-left: 0.7rem;
+    padding-right:0.7rem;
+
+}
+.publication_numbering{
+    width: 1rem;
+    height: 1rem;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:1.3rem;
+    font-size: 1.8rem;
+    border-radius: 7px;
+    font-weight:bold;
+}
+.publication_box{
+    display: flex;
+    margin-bottom: -1.3rem;   
+}
+.page8 .message_box{
+    background-color: transparent;
+    height: 15rem;
+    margin-bottom: 1.1rem;
+    border-radius: 5px;
+}
+.page8 .message_box .messeage_head{
+    margin-top: 0.5rem;
+}
+.page8 .publication_box:nth-child(4){
+    margin-bottom: 1.4rem;
 }
